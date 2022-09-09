@@ -1,0 +1,29 @@
+<div id="main-wrapper">
+  <app-headers></app-headers>
+  <app-sidebars></app-sidebars>
+  <div id="main-wrapper">
+    <div class="page-wrapper">
+      <div class="container-fluid">
+        <app-breadcrumbs></app-breadcrumbs>
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <router-outlet></router-outlet>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- footer -->
+        <!-- ============================================================== -->
+        <footer class="footer">
+          © 2022 Admin Pro by wrappixel.com
+        </footer>
+        <!-- ============================================================== -->
+        <!-- End footer -->
+        <!-- ============================================================== -->
+      </div>
+    </div>
+  </div>
+</div>
